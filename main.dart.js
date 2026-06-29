@@ -76540,7 +76540,7 @@ uF(a,b){var s,r,q=null,p=b.ld($.anG(),t.z8),o=t.y,n=b.ld($.Vq(),o),m=b.ld($.anJ(
 o=A.aoH(q,q,A.aNP(m),q,q,new A.ZR(b),q,q,q)
 s=A.aoH(q,q,A.ato(l?B.lp:B.C2,B.j,q),q,q,new A.ZS(b,l),q,q,q)
 r=A.Fx(q,q,q,new A.bS(B.ej,t.rc),q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.bS(new A.di(A.Fm(18),B.jQ),t._o),q,q,q,q,q,q)
-return A.auR(A.arZ(A.c([o,B.jl,s,B.jl,A.avc(A.eI(n?"All":"TBC",B.wL,q),new A.ZT(b,n),r),B.jl],t.E),B.P7),A.aCs(p,new A.ZU(n,b,l,a),new A.ZV(b),new A.ZW(),t.RD,t.jK))}}
+return A.auR(A.arZ(A.c([o,B.jl,s,B.jl,A.avc(A.eI(n?"All":"TBC",B.wL,q),new A.ZT(b,n),r),B.jl],t.E),B.P6),A.aCs(p,new A.ZU(n,b,l,a),new A.ZV(b),new A.ZW(),t.RD,t.jK))}}
 A.ZR.prototype={
 $0(){var s=this.a,r=$.anJ(),q=s.re(0,r.gwc(),t.rs)
 r=B.lS[B.h.aT(B.b.hB(B.lS,s.re(0,r,t.Bm))+1,4)]
@@ -76576,7 +76576,7 @@ $1(a){var s,r,q,p=this,o=null
 if(J.hk(a)){s=p.a
 r=t.E
 q=A.c([B.Cb,B.wp,A.eI(s?"No fixtures found.":"No upcoming fixtures.",B.fo,o)],r)
-if(!s)B.b.K(q,A.c([B.KX,B.P6],r))
+if(!s)B.b.K(q,A.c([B.KX,B.P7],r))
 return A.ld(A.G5(q,B.iq),o,o)}return new A.yw(new A.Hh(a,p.c,new A.ZP(p.d),o),new A.ZQ(p.b),o)},
 $S:528}
 A.ZQ.prototype={
@@ -81464,6 +81464,7 @@ B.NZ=new A.z(!0,B.D,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.Of=new A.z(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
 B.LZ=new A.z(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.P5=new A.e6(B.Nm,B.Mw,B.Nn,B.NJ,B.Mg,B.Mn,B.MM,B.NF,B.MX,B.O1,B.LS,B.M6,B.NZ,B.Of,B.LZ)
+B.P6=new A.kz("Slap '26",null,null,null,null)
 B.Aa=new A.A(1,0.9607843137254902,0.9607843137254902,0.9607843137254902,B.e)
 B.zY=new A.A(1,0.9333333333333333,0.9333333333333333,0.9333333333333333,B.e)
 B.zQ=new A.A(1,0.8392156862745098,0.8392156862745098,0.8392156862745098,B.e)
@@ -81471,8 +81472,7 @@ B.zB=new A.A(1,0.7411764705882353,0.7411764705882353,0.7411764705882353,B.e)
 B.Gx=new A.cA([50,B.kK,100,B.Aa,200,B.zY,300,B.kL,350,B.zQ,400,B.zB,500,B.kQ,600,B.d2,700,B.cf,800,B.ej,850,B.hi,900,B.kw],t.pl)
 B.GP=new A.o9(B.Gx,1,0.6196078431372549,0.6196078431372549,0.6196078431372549,B.e)
 B.MS=new A.z(!0,B.GP,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.P6=new A.kz("The tournament may have ended.",null,B.MS,null,null)
-B.P7=new A.kz("World Cup Slap '26",null,null,null,null)
+B.P7=new A.kz("The tournament may have ended.",null,B.MS,null,null)
 B.P8=new A.kz("Show on map",null,B.wL,null,null)
 B.P9=new A.kz("Retry",null,null,null,null)
 B.RG=new A.adm(0,"system")
